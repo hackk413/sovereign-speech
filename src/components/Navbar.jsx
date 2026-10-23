@@ -1,5 +1,5 @@
 import React from 'react';
-import { Crown, Flame, Award, Rocket, Sparkles, Volume2, Mic, BookOpen, ShieldAlert, DollarSign, BrainCircuit, Target } from 'lucide-react';
+import { Crown, Flame, Award, Rocket, Sparkles, Volume2, Mic, BookOpen, ShieldAlert, DollarSign, BrainCircuit, Target, FileCheck } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, xp, streak, currentRank, progressPercent, onOpenDeploy, onOpenFeatures }) {
   return (
@@ -70,6 +70,7 @@ export default function Navbar({ activeTab, setActiveTab, xp, streak, currentRan
         <nav className="flex space-x-1 overflow-x-auto py-2 scrollbar-none border-t border-slate-800/80 text-xs">
           {[
             { id: 'daily', label: "Daily Challenge & Voice", icon: Target },
+            { id: 'ats', label: "ATS Resume Checker", icon: FileCheck },
             { id: 'power', label: "48 Laws Persuasion", icon: Crown },
             { id: 'interview', label: "Interview Command (STAR)", icon: Award },
             { id: 'sparring', label: "Live Power Sparring", icon: BrainCircuit },

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import DailyChallengeCard from './components/DailyChallengeCard';
+import ATSResumeChecker from './components/ATSResumeChecker';
 import PowerLawsModule from './components/PowerLawsModule';
 import InterviewMastery from './components/InterviewMastery';
 import PowerFrameSparring from './components/PowerFrameSparring';
@@ -54,6 +55,12 @@ export default function App() {
               gamification={gamification}
             />
           </div>
+        )}
+
+        {activeTab === 'ats' && (
+          <ATSResumeChecker
+            gamification={gamification}
+          />
         )}
 
         {activeTab === 'power' && (
