@@ -456,7 +456,131 @@ export const vocabularyData = [
     weakAlternative: "Okay fine, you win, I guess your idea is better than mine.",
     sovereignUsage: "I concede that your approach saves more computational bandwidth; let's implement your solution.",
     dailyPractice: "How to practice: Use 'I concede that point' in debates to look magnanimous and confident.",
+    origin: "Latin 'concedere' (yield, surrender).",
+    powerScore: 94
+  },
+
+  // CATEGORY: SUBSTITUTION, PIVOTING & ALTERNATIVES (Instead, Alter, Rather Than, etc.)
+  {
+    id: "voc-piv-1",
+    term: "Instead (of)",
+    phonetic: "/ɪnˈsted ɒv/",
+    category: "Pivoting & Alternatives",
+    meaning: "As an alternative or replacement; in place of someone or something else.",
+    whatPeopleForget: "People confuse when to use 'instead' alone vs 'instead of + noun/gerund'.",
+    weakAlternative: "I didn't take the bus, I took a taxi because of that.",
+    sovereignUsage: "Instead of debating theoretical models, let's examine the empirical telemetry.",
+    dailyPractice: "Rule: Use 'instead of + doing something' at the start of a sentence, or put 'instead' at the end of a sentence ('The café was closed, so we went to the bakery instead').",
+    powerScore: 90
+  },
+  {
+    id: "voc-piv-2",
+    term: "Rather than",
+    phonetic: "/ˈrɑː.ðər ðæn/",
+    category: "Pivoting & Alternatives",
+    meaning: "Choosing or preferring one course of action while intentionally rejecting another less desirable option.",
+    whatPeopleForget: "People say 'instead of' when they actually mean 'preferring this superior choice'.",
+    weakAlternative: "We don't want to rush so we will do it carefully.",
+    sovereignUsage: "Rather than rushing an unstable release, we chose to invest an extra sprint into load testing.",
+    dailyPractice: "Rule: Use 'Rather than' to signal deliberate, high-status preference for quality over mediocrity.",
+    powerScore: 94
+  },
+  {
+    id: "voc-piv-3",
+    term: "Alter",
+    phonetic: "/ˈɔːl.tər/",
+    category: "Pivoting & Alternatives",
+    meaning: "To change or adjust the details, form, or settings of something without completely discarding the original structure.",
+    whatPeopleForget: "People say 'change' for everything. 'Alter' implies precise, targeted modification.",
+    weakAlternative: "We need to change our plans and change our code.",
+    sovereignUsage: "We will alter the API payload schema without modifying the underlying database structure.",
+    dailyPractice: "Rule: Use 'alter' when adjusting clothes, plans, terms, schedules, or code settings.",
+    powerScore: 92
+  },
+  {
+    id: "voc-piv-4",
+    term: "Alternatively",
+    phonetic: "/ɔːlˈtɜː.nə.tɪv.li/",
+    category: "Pivoting & Alternatives",
+    meaning: "As another possibility or option; introducing a second distinct pathway.",
+    whatPeopleForget: "People repeatedly say 'or maybe' or 'another thing we can do'.",
+    weakAlternative: "Or maybe we can also do something else if you don't like that.",
+    sovereignUsage: "We can deploy the serverless cluster on AWS; alternatively, we can self-host on bare-metal to cap recurring costs.",
+    dailyPractice: "Rule: Start your sentence with 'Alternatively, we could...' when offering Option B in meetings.",
+    powerScore: 93
+  },
+  {
+    id: "voc-piv-5",
+    term: "In lieu of",
+    phonetic: "/ɪn luː ɒv/",
+    category: "Pivoting & Alternatives",
+    meaning: "In place of; as a formal substitute for (derived from French 'lieu' meaning place).",
+    whatPeopleForget: "People say 'instead of' in legal, financial, or formal contracts.",
+    weakAlternative: "Instead of giving me a cash bonus, they gave me shares.",
+    sovereignUsage: "The founding team agreed to accept equity vesting in lieu of a standard executive salary during year one.",
+    dailyPractice: "Rule: Use in contracts, executive negotiations, or formal transactions.",
+    powerScore: 95
+  },
+  {
+    id: "voc-piv-6",
+    term: "Modify",
+    phonetic: "/ˈmɒd.ɪ.faɪ/",
+    category: "Pivoting & Alternatives",
+    meaning: "To make partial or minor adjustments to something in order to improve it or make it fit a new purpose.",
+    whatPeopleForget: "People say 'edit' or 'change' when 'modify' denotes systematic technical improvement.",
+    weakAlternative: "I changed the document so it fits the new rules.",
+    sovereignUsage: "We modified our onboarding script to reduce drop-off during the two-factor authentication step.",
+    dailyPractice: "Rule: Use when adjusting designs, software features, contracts, or habits.",
+    powerScore: 91
+  },
+  {
+    id: "voc-piv-7",
+    term: "Pivot",
+    phonetic: "/ˈpɪv.ət/",
+    category: "Pivoting & Alternatives",
+    meaning: "To swiftly change direction, strategy, or focus while keeping your foundational base grounded.",
+    whatPeopleForget: "People say 'we changed everything and did a totally new thing'.",
+    weakAlternative: "When the consumer app didn't sell, we stopped and tried selling to businesses.",
+    sovereignUsage: "Recognizing that B2C customer acquisition costs were unsustainable, our leadership pivoted to B2B enterprise licensing.",
+    dailyPractice: "Rule: Use when an organization, strategy, or conversation shifts direction smoothly.",
+    powerScore: 95
+  },
+  {
+    id: "voc-piv-8",
+    term: "Opt for / Opt to",
+    phonetic: "/ɒpt fɔːr/",
+    category: "Pivoting & Alternatives",
+    meaning: "To make an intentional, evaluated choice from a range of available possibilities.",
+    whatPeopleForget: "People always say 'I chose' or 'I picked'.",
+    weakAlternative: "I chose the remote job because the commute was too far.",
+    sovereignUsage: "We opted for PostgreSQL over MongoDB due to our strict requirement for ACID transactional integrity.",
+    dailyPractice: "Rule: Use 'opted for [noun]' or 'opted to [verb]' when explaining your decisions.",
+    powerScore: 92
+  },
+  {
+    id: "voc-piv-9",
+    term: "Supersede",
+    phonetic: "/ˌsuː.pəˈsiːd/",
+    category: "Pivoting & Alternatives",
+    meaning: "To take the place of a person, document, version, or authority that is now retired, outdated, or obsolete.",
+    whatPeopleForget: "People say 'the new version replaces the old version'.",
+    weakAlternative: "The new memo made the old policy not count anymore.",
+    sovereignUsage: "This operational policy document supersedes all previous guidelines issued prior to Q3.",
+    dailyPractice: "Rule: Use when a new software version, contract, or law completely overrides an older one.",
+    powerScore: 96
+  },
+  {
+    id: "voc-piv-10",
+    term: "Conversely",
+    phonetic: "/kənˈvɜːs.li/",
+    category: "Pivoting & Alternatives",
+    meaning: "Introducing a statement or fact that is the exact reverse or opposite of what has just been stated.",
+    whatPeopleForget: "People say 'on the other side / opposite to that'.",
+    weakAlternative: "If you work out, you get strong, but on the other hand if you don't, you get weak.",
+    sovereignUsage: "High automated test coverage accelerates deployment velocity; conversely, manual testing bottlenecks every sprint.",
+    dailyPractice: "Rule: Use 'Conversely, [opposite statement]' to contrast two opposing outcomes with mathematical elegance.",
     powerScore: 94
   }
 ];
+
 

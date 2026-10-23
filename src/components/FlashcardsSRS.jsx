@@ -22,6 +22,7 @@ export default function FlashcardsSRS({ speechSynthesis, gamification }) {
 
   const categories = [
     'All', 
+    'Pivoting & Alternatives',
     'Tip-of-the-Tongue Verbs', 
     'Tip-of-the-Tongue Words', 
     'Daily Spoken', 
