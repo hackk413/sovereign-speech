@@ -10,12 +10,13 @@
 **Sovereign Speech** is a full-stack, browser-native operating system designed to elevate everyday English learners, job candidates, and ambitious entrepreneurs into commanding, high-status communicators.
 
 Unlike standard language apps that teach basic grammar and textbook dialogues, **Sovereign Speech** combines:
-1. **Daily Spoken & Idiomatic English**: Natural cadence, executive small talk, phrasal verbs, and effortless banter.
-2. **Interview-Level Executive English**: The STAR method (Situation, Task, Action, Result) and PREP framework (Point, Reason, Example, Point) to answer *any* question under extreme pressure.
-3. **48 Laws of Power & OSINT Persuasion**: Frame control, strategic silence, psychological mirroring (FBI/Voss method), and Machiavellian verbal tactics adapted directly from Robert Greene's *The 48 Laws of Power*.
-4. **Rich Mindset & Wealth Vernacular**: Financial communication derived from *Rich Dad Poor Dad* (Robert Kiyosaki), *Think and Grow Rich* (Napoleon Hill), and *The Psychology of Money*—transforming scarcity speech into capital allocation logic.
-5. **Classical Rhetoric Treasury**: Curated rules and audio from open-source masterpieces: Dale Carnegie's *The Art of Public Speaking*, Strunk & White's *The Elements of Style*, Joseph Devlin's *How to Speak and Write Correctly*, and *Aristotle's Rhetoric*.
-6. **Self-Updating Daily Content Engine**: Built-in automated GitHub Action cron (`0 0 * * *`) that generates fresh daily challenges, terms of the day, and synced vocabulary updates every midnight UTC.
+1. **ATS-Friendly Resume Checker & Genuine Forensic Scorer**: Analyzed from top ATS algorithms (Greenhouse, Workday, Taleo, Jobscan). Computes authentic 0–100 scores, forensic deduction breakdowns (*"Why Did Your Score Decrease?"*), and actionable playbooks (*"How To Increase Score With & Without JD"*).
+2. **Daily Spoken & Idiomatic English**: Natural cadence, executive small talk, phrasal verbs, and effortless banter.
+3. **Interview-Level Executive English**: The STAR method (Situation, Task, Action, Result) and PREP framework (Point, Reason, Example, Point) to answer *any* question under extreme pressure.
+4. **48 Laws of Power & OSINT Persuasion**: Frame control, strategic silence, psychological mirroring (FBI/Voss method), and Machiavellian verbal tactics adapted directly from Robert Greene's *The 48 Laws of Power*.
+5. **Rich Mindset & Wealth Vernacular**: Financial communication derived from *Rich Dad Poor Dad* (Robert Kiyosaki), *Think and Grow Rich* (Napoleon Hill), and *The Psychology of Money*—transforming scarcity speech into capital allocation logic.
+6. **Classical Rhetoric Treasury**: Curated rules and audio from open-source masterpieces: Dale Carnegie's *The Art of Public Speaking*, Strunk & White's *The Elements of Style*, Joseph Devlin's *How to Speak and Write Correctly*, and *Aristotle's Rhetoric*.
+7. **Self-Updating Daily Content Engine**: Built-in automated GitHub Action cron (`0 0 * * *`) that generates fresh daily challenges, terms of the day, and synced vocabulary updates every midnight UTC.
 
 ---
 
