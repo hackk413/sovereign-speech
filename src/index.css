@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-obsidian-950 text-slate-100 antialiased selection:bg-gold-500 selection:text-black;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Gold Glow & Neon Accents */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(197, 147, 37, 0.25);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 35px -2px rgba(197, 147, 37, 0.4);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ffd700 0%, #c59325 50%, #f5eecc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border: 1px solid rgba(197, 147, 37, 0.25);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #232733;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c59325;
+}

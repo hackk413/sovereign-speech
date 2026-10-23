@@ -1,0 +1,40 @@
+{
+  "lastUpdated": "2026-10-23T14:32:25.141Z",
+  "dateString": "2026-10-23",
+  "status": "ACTIVE_AUTO_SYNC",
+  "totalTermsSynced": 48,
+  "version": "2.4.0",
+  "dailyFocus": "Executive Cadence & Strategic Detachment",
+  "newEntries": [
+    {
+      "term": "Asymmetric Leverage",
+      "phonetic": "/ˌeɪ.sɪˈmet.rɪk ˈlev.ər.ɪdʒ/",
+      "category": "Wealth & Finance",
+      "meaning": "Positioning systems or capital where the upside potential multiplies exponentially while downside risk is tightly constrained.",
+      "weakAlternative": "Doing things that make a lot of money without big danger.",
+      "sovereignUsage": "We deployed software automation to secure asymmetric leverage over legacy manual competitors.",
+      "powerScore": 98,
+      "dateAdded": "2026-10-23"
+    },
+    {
+      "term": "Strategic Ambiguity",
+      "phonetic": "/strəˈtiː.dʒɪk ˌæm.bɪˈɡjuː.ə.ti/",
+      "category": "48 Laws & Persuasion",
+      "meaning": "Intentionally vague communication utilized to keep opponents off-balance and preserve tactical optionality.",
+      "weakAlternative": "Not telling people what you are really thinking.",
+      "sovereignUsage": "He maintained strategic ambiguity regarding his next acquisition target, paralyzing the board's rivals.",
+      "powerScore": 95,
+      "dateAdded": "2026-10-23"
+    },
+    {
+      "term": "Cognitive Sovereignty",
+      "phonetic": "/ˈkɒɡ.nə.tɪv ˈsɒv.rən.ti/",
+      "category": "Executive English",
+      "meaning": "Unshakeable mental independence; the psychological immunity to peer-group hysteria, panic, or manufactured urgency.",
+      "weakAlternative": "Not caring what other people think or panic about.",
+      "sovereignUsage": "In high-stress negotiations, maintaining cognitive sovereignty is the prerequisite for flawless execution.",
+      "powerScore": 99,
+      "dateAdded": "2026-10-23"
+    }
+  ]
+}

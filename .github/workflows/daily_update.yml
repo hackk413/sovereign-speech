@@ -1,0 +1,33 @@
+name: Daily Content Auto-Updater
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Daily Auto-Update Engine
+        run: |
+          node scripts/auto_update.js
+
+      - name: Commit and Push Fresh Content
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/lastSync.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(auto-update): refresh daily terms and challenges for $(date +'%Y-%m-%d')" && git push)

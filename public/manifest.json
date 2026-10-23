@@ -1,0 +1,15 @@
+{
+  "short_name": "SovereignSpeech",
+  "name": "Sovereign Speech - Spoken English, 48 Laws Persuasion & Wealth Mindset OS",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0a0c10",
+  "theme_color": "#c59325",
+  "display": "standalone"
+}
