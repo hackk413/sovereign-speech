@@ -20,7 +20,15 @@ export default function FlashcardsSRS({ speechSynthesis, gamification }) {
     }))
   ];
 
-  const categories = ['All', 'Daily Spoken', 'Executive English', '48 Laws & Persuasion', 'Wealth & Finance'];
+  const categories = [
+    'All', 
+    'Tip-of-the-Tongue Verbs', 
+    'Tip-of-the-Tongue Words', 
+    'Daily Spoken', 
+    'Executive English', 
+    '48 Laws & Persuasion', 
+    'Wealth & Finance'
+  ];
 
   const filteredDeck = activeCategory === 'All'
     ? combinedVocab
@@ -132,6 +140,13 @@ export default function FlashcardsSRS({ speechSynthesis, gamification }) {
                 <p className="text-sm text-slate-200 leading-relaxed font-sans">{currentCard.meaning}</p>
               </div>
 
+              {currentCard.whatPeopleForget && (
+                <div className="p-2.5 bg-amber-950/40 rounded-xl border border-amber-500/30 text-xs text-amber-200">
+                  <span className="text-[10px] font-mono text-amber-400 font-bold block mb-0.5">Tip-of-the-Tongue Trigger:</span>
+                  {currentCard.whatPeopleForget}
+                </div>
+              )}
+
               <div className="p-3 bg-obsidian-950 rounded-xl border border-red-950/40 text-xs text-red-300/80 italic">
                 <span className="text-[10px] font-mono text-red-400 font-bold block mb-0.5">Weak Alternative:</span>
                 "{currentCard.weakAlternative}"
@@ -141,6 +156,12 @@ export default function FlashcardsSRS({ speechSynthesis, gamification }) {
                 <span className="text-[10px] font-mono text-gold-400 font-bold block mb-0.5">Sovereign Usage:</span>
                 "{currentCard.sovereignUsage}"
               </div>
+
+              {currentCard.dailyPractice && (
+                <div className="text-[11px] text-emerald-300 font-mono">
+                  {currentCard.dailyPractice}
+                </div>
+              )}
 
               {currentCard.origin && (
                 <div className="text-[10px] text-slate-400 font-mono">
